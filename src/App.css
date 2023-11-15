@@ -1,0 +1,411 @@
+
+body{
+  background-color: white;
+  font-family: sans-serif;
+}
+/*------------------------------------------------------------ ESTILOS HEADER ---------------------------------------------------------------------*/
+
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #D55039;
+  min-height: 75px;
+  padding: 10px;
+  padding-right: 96px;
+
+}
+
+#contenedorPerfilCarrito{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 25px;
+}
+
+#contenedorPerfil{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#contenedorPerfil:hover{
+  text-decoration-line: underline;
+  color: white;
+}
+
+#botonMiPerfil{
+  border: none;
+  background-color: #D55039;
+  color: white;
+  font-size: 20px;
+}
+
+#botonMiPerfil:hover{
+  cursor: pointer;
+}
+
+#personitaPerfilImagen{
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+
+#imagenCarrito{
+  width: 45px;
+  height: 45px;
+  cursor: pointer;
+}
+
+.buttonIngresar {
+  min-height: 50px;
+  min-width: 110px;
+  background-color:#FFF3DC;
+  color: #D55039;
+  border-radius: 10px;
+  border-color: #D55039;
+  border-width: 3px;
+}
+
+.buttonIngresar:hover{
+  background-color: #953A3A;
+  color: #FFF3DC;
+  cursor: pointer;
+}
+
+.barraBuscar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.botonLupa{
+  border: none;
+  background: none;
+}
+
+.imagenLupa{
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.cajaBuscar{
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  margin-left: 80px;
+  text-align: left;
+  border-radius: 5px;
+  border-width: 0px;
+}
+
+.lineaBordo{
+  display: flex;
+  background-color: #953A3A;
+  height: 12px;
+  padding: 1px;
+}
+
+#logo{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding-left: 96px;
+}
+
+#logoBSArriba{
+  width:110px;
+  min-height: 110px;
+}
+
+#arriba{                    /*BOTONES SUPERIORES DE HOME, PRODUCTOS Y CONTACTOS*/
+  color: #FFF3DC;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 66px;
+}
+
+.buttonA{
+  background:none;
+  border: none;
+  color: #FFF3DC;
+  text-align: center;
+  font-style: inherit;
+  font-size: 25px;
+}
+
+.buttonA:hover{
+  color: white;
+  text-decoration-line: underline;
+  cursor: pointer;
+}
+
+/*--------------------------MODAL DE REGISTRARSE-----------------------------*/
+
+
+#contenedorBotonesRegistrarseIngresar{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 40px;
+}
+
+#fondoBotonesRegistrarseIngresar{
+  display: flex;
+  gap: 40PX;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.36);
+}
+
+.botonParteSuperiorFormulario{
+  font-family: inherit;
+  background-color: white;
+  color: #000;
+  border: none;
+  border-radius: 10px;
+  font-size: 18px;
+  text-decoration: underline;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.botonParteSuperiorFormulario:hover{
+  font-family: inherit;
+  background-color: white;
+  color: #000;
+  font-size: 18px;
+  text-decoration: underline;
+}
+
+#contenedorCamposFormulario{
+  background-color: #E9E6E6;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#contenedorCamposFormularioLogin{
+  background-color: #E9E6E6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.columna{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+.columnaLogin{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+#contenedorBotonRegistrarse{
+  display: flex;
+  justify-content: center;
+}
+
+#botonRegistrarse{
+  background-color: #D55039;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.114);
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+/* ------------------------------------------ESTILOS FOOTER-------------------------------------------*/
+
+
+footer{
+  margin: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.container{
+  
+  background-color: #D55039;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 0;
+  margin-right: 0;
+}
+
+.lineaBordoFooter{
+  height: 15px;
+  background-color: #953A3A;
+  justify-content: center;
+  flex-direction: row; 
+}
+
+.lineaNegraFooter{
+  height: 3px;
+  background-color: #00000038;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.button {
+  background:none;
+  border: none;
+  color: #FFF3DC;
+  text-align: center;
+  font-style: inherit;
+  font-size: 25px;
+}
+
+.buttonAb{
+  font-size: 18px;
+  margin: 15px 32px;
+  cursor: pointer;
+}
+
+.buttonUp{
+  margin: 5px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.buttonApp{
+  font-size: 20px !important;
+  cursor: pointer;
+}
+
+.button:hover{
+  color: white;
+  text-decoration-line: underline;
+}
+
+.texto{
+  background:none;
+  border: none;
+  color: #FFF3DC;
+  font-style: inherit;
+  
+}
+
+
+/* ---------------------PARTE 1 (COLUMNA APPS, LOGO Y COLUMNA REDES SOCIALES)-------------------------------------------*/
+
+.parte1{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 96px;
+  padding-right: 96px;
+  align-items: center;
+  margin: 0;
+  margin-bottom: 0;
+  margin-right: 0;
+}
+
+
+/* ------------------------------------------CONTENEDOR APP-------------------------------------------*/
+
+#APPcontainer{
+  display: flex;
+  flex-direction: column;
+  padding-top: 30px;
+  margin: 0;
+  margin-bottom: 0;
+  margin-right: 0;
+}
+
+#colTextoApp{
+  display: flex;
+  flex-direction: column;
+  color: #FFF3DC;
+  font-size: 14px;
+  font-style: inherit;
+}
+
+#Apps{
+  display: flex;
+}
+
+.imagePlay{
+  width: 90px;
+  height: 35px;
+}
+
+.imageApple{
+  width: 90px;
+  height: 35px;
+}
+
+/* ------------------------------------------CONTENEDOR LOGO-------------------------------------------*/
+
+#logoBSFooter{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin: 0;
+  margin-bottom: 0;
+  margin-right: 0;
+}
+
+/* ------------------------------------------CONTENEDOR REDES SOCIALES-------------------------------------------*/
+
+#socialContenedor{
+  display: flex;
+  flex-direction: column;
+  padding-top: 30px;
+}
+
+#imagenNombreContenedor{
+  display: flex;
+  flex-direction: column;
+}
+
+#instagram{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#facebook{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.imageInsta{
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.imageFace{
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+/* -----------------------------------------PARTE 2 (BOTONES INFERIORES)-------------------------------------------*/
+
+#abajo{
+  color: #FFF3DC;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-left: 66px;
+  color: #FFF3DC;
+}
